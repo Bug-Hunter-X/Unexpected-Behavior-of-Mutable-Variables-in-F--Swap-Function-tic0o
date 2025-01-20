@@ -1,0 +1,1 @@
+This repository demonstrates an unexpected behavior of mutable variables in F#.  When attempting to swap two mutable variables within a function, the values are not swapped correctly. The issue arises from the scope of the mutable variables within the swap function.  The solution shows how to correctly swap the variables using either tuples or a helper function.
